@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding:0;
+}
+nav{
+    background-color: #333;
+    right: 0;
+    left: 0;
+    height: 100px;
+    margin-top: -20px;
+    top: 50%;
+    overflow: hidden;
+
+}
+ul{
+    list-style: none;
+    text-align: center;
+    padding: 25px;
+    margin-top: 17px;
+}
+li{
+    position: relative;
+    display: inline;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 25px;
+    color: white
+}
+a:hover{
+    color: red;
+}
+a{
+    color: white;
+text-decoration: none;
+}

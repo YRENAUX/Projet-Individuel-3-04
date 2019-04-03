@@ -1,0 +1,124 @@
+*{
+   margin: 0;
+}
+
+@keyframes slider {
+
+0%{
+   left: 0;
+}
+20%{
+    left: 0;
+}
+25%{
+   left: -100%;
+}
+45%{
+    left: -100%;
+}
+50%{
+   left: -200%;
+}
+70%{
+   left: -200%;
+}  
+75%{
+    left: -300%;
+}
+95%{
+    left: -300%;
+}
+100%{
+   left: -400%;
+   }
+}
+
+#slider{
+   overflow: hidden;
+}
+
+#slider figure img{
+   width: 20%;
+   float: left;
+}
+
+#slider figure{
+position: relative;
+width: 500%;
+margin:0;
+left:0;
+animation:10s slider infinite;
+}
+
+.container{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   padding: 50px;
+}
+
+.container>img{
+   width:500px;
+   height: 500px;
+   position: relative;
+}
+.paragraphe{
+   margin-left: 35px;
+}
+
+.paralax{
+   background-image: url("https://www.netflix-news.com/wp-content/uploads/2016/04/better-call-saul-les-moments-preferes-de-bob-netflix-hd-youtube-thumbnail.jpg");
+   height: 650px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.gallery{
+   margin: 5px;
+   border: 1px solid #ccc;
+   float: left;
+   width:380px;
+   margin-left: 200px;
+}
+.gallery>img{
+   width: 100%;
+   height: auto;
+}
+
+.desc{
+   padding: 15px;
+   text-align: center;
+}
+
+.gallery2{
+   margin: 5px;
+   border: 1px solid #ccc;
+   float: left;
+   width:380px;
+   margin-left:200px;
+}
+.gallery2>img{
+   width: 100%;
+   height: auto;
+}
+
+.desc{
+   padding: 15px;
+   text-align: center;
+}
+.gallery3{
+   margin-left: 50px;
+   width: 100%
+}
+.image{
+   position:relative;
+   z-index:1;
+}
+.texte{
+   position: absolute;
+   z-index: 10;
+   color: white;
+   font-size: 200px;
+}
